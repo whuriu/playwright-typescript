@@ -1,5 +1,4 @@
 import { Page,Locator,expect } from "@playwright/test";
-import {faker} from '@faker-js/faker'
 class ContactPage{
     private page:Page
     contactName: Locator;
